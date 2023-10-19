@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Overlay styles */
+iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 9999; /* Ensure the overlay is above the page content */
+  }
+  
+  /* Popup styles */
+  body {
+    width: 200px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
